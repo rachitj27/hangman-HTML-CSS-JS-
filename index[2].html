@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<title>Hangman</title>
+	<meta name="viewport" content="width=device-width, initial-scale=0.5">
+	<link href="style.css" rel="stylesheet">
+	<link href="stages/0.png" rel="prefetch">
+	<link href="stages/1.png" rel="prefetch">
+	<link href="stages/2.png" rel="prefetch">
+	<link href="stages/3.png" rel="prefetch">
+	<link href="stages/4.png" rel="prefetch">
+	<link href="stages/5.png" rel="prefetch">
+	<link href="stages/6.png" rel="prefetch">
+	<link href="stages/7.png" rel="prefetch">
+	<script src="script.js" defer>
+
+	</script>
+</head>
+
+<body>
+	<h1>Hangman</h1>
+
+	<div id="submitSection">
+		<input type="text" placeholder="word" id="wordInput">
+    <button id="submitButton">Submit</button>
+    <button id="randomButton">Random word</button>
+    <p id="submitParagraph"></p>
+  </div>
+
+  <div id="imageSection">
+    <div id="image"></div>
+    <div id="messageParagraph"></div>
+  </div>
+
+  <div id="blankSection"></div>
+  <div id="letterSection"></div>
+</body>
+
+</html>

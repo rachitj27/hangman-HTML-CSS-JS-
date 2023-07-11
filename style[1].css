@@ -1,0 +1,89 @@
+body {
+  background-color: orchid;
+}
+
+input,
+button {
+  padding: 5px;
+}
+
+input {
+  width: 150px;
+}
+
+#submitParagraph {
+  font-size: 24px;
+}
+
+#imageSection {
+  display: none;
+  margin-bottom: 32px;
+}
+
+#image,
+#messageParagraph {
+  display: inline-block;
+  vertical-align: middle;
+}
+
+#image {
+  width: 150px;
+  height: 186px;
+  margin-right: 54px;
+}
+
+#messageParagraph {
+  font-size: 50px;
+
+}
+
+#blankSection {
+  margin-bottom: 15px;
+}
+
+.blank {
+  display: inline-block;
+  vertical-align: top;
+  width: 50px;
+  height: 35px;
+  border-bottom: 1px solid black;
+  font-size: 30px;
+  text-align: center;
+  margin-right: 20px;
+  margin-bottom: 25px;
+  user-select: none;
+}
+
+.missed {
+  color: red;
+}
+
+#letterSection {
+  width: 650px;
+}
+
+.letter {
+  display: inline-block;
+  width: 48px;
+  height: 41px;
+  background-color: white;
+  border: 1px solid black;
+  font-size: 30px;
+  text-align: center;
+  padding-top: 7px;
+  user-select: none;
+}
+
+.letter:hover {
+  background-color: rgb(230, 199, 173);
+  cursor: pointer;
+}
+
+.guessed {
+  opacity: 25%;
+}
+
+.guessed:hover {
+  background-color: white;
+  cursor: not-allowed;
+}
